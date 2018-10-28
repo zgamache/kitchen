@@ -21,6 +21,7 @@
     "semi": ["error", "never"],
     "no-console": "off",
     "arrow-parens": ["error", "as-needed"],
-    "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
+    "react/forbid-prop-types": ["error", { "forbid": ["any", "array"] }]
   }
 }
