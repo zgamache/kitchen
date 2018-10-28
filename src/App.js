@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import React from 'react'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 import { Main, Example } from './screens'
 
@@ -22,7 +22,7 @@ function BasicExample() {
         <Route path="/example" component={Example} />
       </div>
     </Router>
-  );
+  )
 }
 
-export default BasicExample;
+export default BasicExample

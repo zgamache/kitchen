@@ -1,28 +1,27 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './Example.css';
+import React from 'react'
+import logo from './logo.svg'
+import './Example.css'
 
-class Example extends Component {
-  render() {
-    return (
-      <div className="Example">
-        <header className="Example-header">
-          <img src={logo} className="Example-logo" alt="logo" />
-          <p>
-            Edit <code>src/Example.js</code> and save to reload.
-          </p>
-          <a
-            className="Example-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+function Example() {
+  return (
+    <div className="Example">
+      <header className="Example-header">
+        <img src={logo} className="Example-logo" alt="logo" />
+        <p>
+          {/* eslint-disable react/jsx-one-expression-per-line */}
+          Edit <code>src/Example.js</code> and save to reload.
+        </p>
+        <a
+          className="Example-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  )
 }
 
-export default Example;
+export default Example
